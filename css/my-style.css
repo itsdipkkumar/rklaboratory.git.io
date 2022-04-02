@@ -6,6 +6,9 @@
 
 }
 .navbar-brand{}
+#logo{
+    color: white;
+}
    
 #menu li a{
     color:white;
