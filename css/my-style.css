@@ -9,7 +9,7 @@
    
 #menu li a{
     color:white;
-    font-size: larger;
+    font-size: small;
 }
 #menu li a:hover{
     background-color: darkgreen;
