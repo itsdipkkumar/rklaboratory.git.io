@@ -1,4 +1,4 @@
-.container a{
+#rk{
     color:white ;
     font-size: 30px;
     padding-left: 16px;
@@ -8,21 +8,69 @@
 .navbar-brand{}
 #logo{
     color: white;
+    padding-right: 10px;
 }
    
 #menu li a{
     color:white;
-    font-size: small;
+    font-size: medium;
 }
 #menu li a:hover{
     background-color: darkgreen;
 }
 .container{
-    width: 1000px;
+     /* width: 1000px;  */
 }
 @media screen and (max-width:576px) {
 #rk a{
     padding-left: 20px;
 }
     
+}
+#footer-bar{
+    background-color:rgba(3, 1, 1, 0.582);
+    color: lightgray;
+    font-size: small;
+    /* padding: 20px; */
+}
+#contact-developer{
+    font-size: small;
+    text-decoration: none;
+    color: lightgray;
+}
+.col-md-2{
+    /* background-color: aqua; */
+    /* border: 1px solid grey; */
+    /* margin: 0px 2px; */
+    /* box-shadow: 1px 1px 5px 1px grey; */
+}
+#services{
+    text-align: center;
+    /* font-size: large; */
+
+}
+.col-4 h1{
+    font-size: 32px;
+}
+@media screen and (max-width:576) {
+    #banner-lab{
+        background-color: blue;
+    }
+    
+}
+.banner-lab{
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+.sub-heading{
+    margin-top:-5px;
+    font-size: smaller;
+}
+.show-more-p a{
+    text-decoration: none;
+    color:black;
+}
+#Services-row-2{
+    /* background-image: url('../Images/carousel1.jpg'); */
 }
